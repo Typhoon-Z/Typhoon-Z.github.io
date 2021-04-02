@@ -10,6 +10,6 @@
 
 [markdown标题](Markdown-标题.md)
 
-[markdown短落](Markdown-段落.md)
+[markdown段落](Markdown-段落.md)
 
 [markdown表格](https://github.com/Typhoon-Z/Typhoon-Z.github.io/blob/main/Markdown-%E8%A1%A8%E6%A0%BC.md)
