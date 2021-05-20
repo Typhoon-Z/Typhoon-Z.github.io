@@ -25,75 +25,66 @@
     20 May 2021
     
     
-    - <a href="/authors/Me.html">Me YYY</a>
+    - <a href="/authors/WY.html">WY</a>
     
 </p>
 
 <h1 id="web应用软件开发实训---第二次作业---开发一个静态网站">WEB应用软件开发实训 - 第二次作业 - 开发一个静态网站</h1>
 
-<p>网站的公用网址：https://typhoon-z.github.io/</p>
+<p>网站的公用网址:<a href="https://typhoon-z.github.io/">https://typhoon-z.github.io/</a></p>
 
-<p>网站源代码Github仓库网址：https://github.com/Typhoon-Z/Typhoon-Z.github.io</p>
+<p>网站源代码Github仓库网址：<a href="https://github.com/Typhoon-Z/Typhoon-Z.github.io">https://github.com/Typhoon-Z/Typhoon-Z.github.io</a></p>
 
 <h2 id="一网站目录结构">一、网站目录结构</h2>
 <p><img src="/assets/images/网站目录.png" alt="" /></p>
+
 <h2 id="二网站截图">二、网站截图</h2>
-<ul>
-  <li>首页</li>
-</ul>
 
-<p><img src="/assets/images/首页.jpg" alt="" /></p>
+<h3 id="1首页">1.首页</h3>
 
-<ul>
-  <li>Blog列表页</li>
-</ul>
+<p><img src="/assets/images/首页.png" alt="" /></p>
 
-<p><img src="/assets/images/Blog.jpg" alt="" /></p>
+<h3 id="2blog列表页">2.Blog列表页</h3>
 
-<ul>
-  <li>两篇Post</li>
-</ul>
+<p><img src="/assets/images/Blog.png" alt="" /></p>
 
-<p>第一篇</p>
-
+<h3 id="3第一篇post">3.第一篇Post</h3>
 <p><img src="/assets/images/post1.png" alt="" /></p>
 
-<p>第二篇</p>
+<h3 id="4第二篇post">4.第二篇Post</h3>
+<p><img src="/assets/images/post2.png" alt="" /></p>
 
-<p><img src="/assets/images/post2.jpg" alt="" /></p>
+<h3 id="5staff列表页">5.Staff列表页</h3>
 
-<ul>
-  <li>Staff列表页</li>
-</ul>
+<p><img src="/assets/images/Staff.png" alt="" /></p>
 
-<p><img src="/assets/images/Staff.jpg" alt="" /></p>
+<h3 id="6一个作者简介页">6.一个作者简介页</h3>
 
-<ul>
-  <li>一个作者简介页</li>
-</ul>
+<p><img src="/assets/images/作者简介.png" alt="" /></p>
 
-<p><img src="/assets/images/作者简介.jpg" alt="" /></p>
+<h3 id="7一个about页面">7.一个About页面</h3>
 
-<ul>
-  <li>一个About页面</li>
-</ul>
+<p><img src="/assets/images/About.png" alt="" /></p>
 
-<p><img src="/assets/images/About.jpg" alt="" /></p>
 <h2 id="三实验过程">三、实验过程</h2>
-<p>1、通过老师给的安装包安装了VSCode以及remote插件，并通过插件连接了WSL。</p>
 
-<p>2、在VSCode里面，按照老师给的安装讲义里“Jekyll官方文档”的“Step by Step Tutorial”的内容完成了1-9步。</p>
+<p>1、安装工作：安装VSCode以及remote插件，并通过插件连接了WSL，在WSL上安装jekyll。</p>
 
-<p>3、通过“jekyll serve”运行调试网站，并将之前在GitHub上的Markdown练习以帖子的形式发布到网站上。</p>
+<p>2、在VSCode里面，按照“Step by Step Tutorial”的内容完成了网站的基本建立。</p>
 
-<p>4、在WSL上更新系统然后安装nginx，并且启动nginx。</p>
+<p>3、通过“jekyll serve”运行调试网站，并将Markdown练习以帖子的形式发布到网站上。</p>
 
-<p>5、通过在WSL上对根系统的操作，将_site目录部署到了nginx上。</p>
+<p>4、在WSL上安装nginx，并且启动nginx。</p>
 
-<p>6、在VSCode里面将网站的源代码都push到了GitHub上。在GitHub里面新建一个项目，并将源代码都放入到这个项目里面。</p>
+<p>5、通过“jekyll build”编译网站，将编译得到的_site目录部署到了nginx上。</p>
+
+<p>6、将网站源代码push到Github.com网站，并通过Github.io网站检查jekyll代码是否被正确编译。</p>
 
 <h2 id="四实验总结">四、实验总结</h2>
-<p>在这次实验中，遇到很多的问题，通过上网的搜寻也无法解决问题。所以求助了老师和同学。因为Markdown练习没有听清楚老师的要求，弄错了，只能全部重新写。在安装nginx时，虽然成功的安装好了，但是不能打开nginx，在网上搜寻了很久，最后是求助了老师才能够让nginx启动。解决方法是把本地Windows的World Wild Web发布服务关闭并设置手动开启，这样nginx能够启动得了。将_site目录部署到了nginx上，上网查询发现只能在Ubuntu的根目录下才有权限对nginx目录进行操作。通过这次实验，发现了自己的理论知识还是特别地薄弱，一个小的问题就能让自己止步不前，需要自己去补充更多的理论知识，以便遇到问题也能更快更好地解决。同时也了解了开发一个静态网站所需要的一些基本的步骤。</p>
+
+<p>本次实验主要建立一个自己的网站，按照step-by-step基本上没有遇到问题，但是在将Markdown练习内容以帖子的形式发布到网站上时，网站并没有显示我发布的帖子的内容，我仔细观察了我的帖子和step-by-step中的帖子，发现是文件名称的格式不对，因此我把文件名称该了下，然后网站上就显示出来了帖子的内容。将_site部署到nginx时，我遇到了很大的问题，一直进入不了到cd/var/www/html里面去，然后我在网络上搜了很多关于这方面的东西，花了很长时间也没有解决。于是我问了同学，他在VScode里面操作，一遍就成功了，我觉得很神奇，可能是我之前一直在Ubuntu里面操作nginx,不过现在还是不太明白为什么。最后的将网站源代码push到GitHub上很顺利，没有遇到什么问题。</p>
+
+<p>通过这次建立自己的网站，我收获了很多，学会了建立网站，可以把自己以后学习的一些经验想法post上去。遇到问题要积极的去解决它，办法总是有的。不过通过这次实验我意识到了自己应该多学习一些知识，不能只局限于课堂上，还要自己去实际操作。</p>
 
 
 </body>
